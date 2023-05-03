@@ -12,4 +12,4 @@ def home(request):
 def api(request):
     global count
     count +=1
-    return redirect("https://qr-code-tracking.vercel.app/")
+    return redirect("https://qr-tracking.vercel.app/")
